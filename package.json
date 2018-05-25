@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "precommit": "npm run commitlint && npm run lint ",
-    "commitlint" : "commitlint -e"
+    "commitlint": "commitlint -e"
   },
   "private": true,
   "dependencies": {
