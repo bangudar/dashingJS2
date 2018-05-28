@@ -1,5 +1,12 @@
 @import "src/sass/_variables.scss";
+@import "node_modules/bourbon/core/_bourbon.scss";
 
 h1 {
-   color : $h1-color;
+   color : $text-default-color;
+   @include border-style(dashed null solid);
 }
+
+h2 {
+    @include ellipsis;
+ }
+ 
