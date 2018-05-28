@@ -1,6 +1,10 @@
+@charset "utf_8";
 @import "variables";
+@import "node_modules/bourbon/core/_bourbon.scss";
 
 body, html {
     background-color: $bg-color;
+    font-family: $font-stack-verdana;
+    color : $text-default-color;
    }
    
